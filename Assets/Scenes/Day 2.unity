@@ -1508,6 +1508,7 @@ GameObject:
   - component: {fileID: 150806984}
   - component: {fileID: 150806983}
   - component: {fileID: 150806982}
+  - component: {fileID: 150806986}
   m_Layer: 0
   m_Name: Pouch
   m_TagString: Untagged
@@ -1615,6 +1616,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &150806986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150806981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8baf7353dee8fcd4e9b05bf0507bf63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
 --- !u!1 &153242720
 GameObject:
   m_ObjectHideFlags: 0
@@ -5652,7 +5666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &636216331
 Transform:
   m_ObjectHideFlags: 0
@@ -7783,7 +7797,10 @@ MonoBehaviour:
     sentences:
     - The pouch looks like a messenger bag. You open it and find a document you can't
       really make out but its content.
-    - '"Able at 4. Dawn assemble. Southwest. Call awaits." '
+    - "\"Able at 4. Dawn assemble. Southwest. Call awaits.\" \n"
+    - 'You picked up the pouch.
+
+'
 --- !u!114 &962714834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8242,7 +8259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016130842}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -79.34, y: 1.2000008, z: 0}
+  m_LocalPosition: {x: -46.089996, y: -3.0499992, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children:
   - {fileID: 1302078124}
