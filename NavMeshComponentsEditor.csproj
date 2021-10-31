@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6FF6DEDA-5E47-F708-4634-0BB9CF4DCC3B}</ProjectGuid>
+    <ProjectGuid>{5F581FE9-C025-CEF5-BD1D-3741840BC266}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NavMeshComponentsEditor</AssemblyName>
@@ -53,14 +53,17 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshAssetManager2d.cs" />
+    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshAssetManager.cs" />
+    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshSurfaceEditor2d.cs" />
+    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
     <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
     <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
-    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
-    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
-    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshAssetManager.cs" />
-    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
-    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshSurfaceEditor2d.cs" />
-    <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshAssetManager2d.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NavMeshPlus-master\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef" />
@@ -675,7 +678,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{C04D2911-8424-674D-5A35-C05FDEE62E2C}</Project>
+      <Project>{2A782A9B-61AB-1735-4356-C07CF0D731AE}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

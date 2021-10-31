@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{04622736-7DB2-717A-730C-D3E3880395F8}</ProjectGuid>
+    <ProjectGuid>{450E58E9-49A1-C88D-D0C9-933F57C1FD45}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,11 +55,16 @@
   <ItemGroup>
     <Compile Include="Assets\DayOneSub.cs" />
     <Compile Include="Assets\TestingScripts\Item.cs" />
+    <Compile Include="Assets\BartenderDayTwo.cs" />
+    <Compile Include="Assets\InfoOne.cs" />
     <Compile Include="Assets\TestingScripts\ExposureCounter.cs" />
     <Compile Include="Assets\TestingScripts\Dialogue.cs" />
     <Compile Include="Assets\TestingScripts\PlayerInventory.cs" />
+    <Compile Include="Assets\BookletBoy.cs" />
     <Compile Include="Assets\TestingScripts\Movement.cs" />
+    <Compile Include="Assets\BakerDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\NodeParser.cs" />
+    <Compile Include="Assets\DayTwoSub.cs" />
     <Compile Include="Assets\TestingScripts\Inventory.cs" />
     <Compile Include="Assets\TestingScripts\InteractButton.cs" />
     <Compile Include="Assets\TestingScripts\GameManager.cs" />
@@ -78,11 +83,8 @@
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
-    <Compile Include="Assets\BookletBoy.cs" />
-    <Compile Include="Assets\BakerDayTwo.cs" />
-    <Compile Include="Assets\DayTwoSub.cs" />
-    <Compile Include="Assets\InfoOne.cs" />
-    <Compile Include="Assets\BartenderDayTwo.cs" />
+    <Compile Include="Assets\SgtDayTwo.cs" />
+    <Compile Include="Assets\SoldierDayTwo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -717,19 +719,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="XNodeEditor.csproj">
-      <Project>{53D4FEE2-832C-6738-A30C-C530A1AFE077}</Project>
+      <Project>{F9ECC790-875A-7F94-A371-B66C756F54FD}</Project>
       <Name>XNodeEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{6FF6DEDA-5E47-F708-4634-0BB9CF4DCC3B}</Project>
+      <Project>{5F581FE9-C025-CEF5-BD1D-3741840BC266}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{C04D2911-8424-674D-5A35-C05FDEE62E2C}</Project>
+      <Project>{2A782A9B-61AB-1735-4356-C07CF0D731AE}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="XNode.csproj">
-      <Project>{234AFD2D-C57A-4532-A71C-39708C3AE3E3}</Project>
+      <Project>{1A540900-6289-8A07-7C49-44EBF664BD1A}</Project>
       <Name>XNode</Name>
     </ProjectReference>
   </ItemGroup>
