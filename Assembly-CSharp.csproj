@@ -61,6 +61,7 @@
     <Compile Include="Assets\TestingScripts\Dialogue.cs" />
     <Compile Include="Assets\TestingScripts\PlayerInventory.cs" />
     <Compile Include="Assets\BookletBoy.cs" />
+    <Compile Include="Assets\EndCanvasTwo.cs" />
     <Compile Include="Assets\TestingScripts\Movement.cs" />
     <Compile Include="Assets\BakerDayTwo.cs" />
     <Compile Include="Assets\SoldierDayTwo.cs" />
@@ -82,11 +83,11 @@
     <Compile Include="Assets\TestingScripts\InteractDetection.cs" />
     <Compile Include="Assets\EndCanvasOne.cs" />
     <Compile Include="Assets\TestingScripts\DialogueTrigger.cs" />
+    <Compile Include="Assets\Pouch.cs" />
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
-    <Compile Include="Assets\Pouch.cs" />
-    <Compile Include="Assets\EndCanvasTwo.cs" />
+    <Compile Include="Assets\DayThreeSub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -48,6 +48,15 @@ public class GameManager : MonoBehaviour
     public int govExposure;
     public int milExposure;
 
+    [Header("Day 3 Modifiers")]
+    public bool bakerBodyM;
+    public bool bakerBodyG;
+    public bool bartenderBodyU;
+    public bool bartenderBodyG;
+    public bool sgtBodyU;
+    public bool sgtBodyM;
+    public bool flag;
+
     [Header("Debug")]
     public bool hasTalked;
     //public ItemType currentItem;
