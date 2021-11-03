@@ -17,9 +17,19 @@ public class DayThreeSub : MonoBehaviour
         gm.sgtBodyU = true;
     }
 
+    public void SgtCorpseM()
+    {
+        gm.sgtBodyM = true;
+    }
+
     public void BakerCorpseM()
     {
         gm.bakerBodyM = true;
+    }
+
+    public void BakerCorpseG()
+    {
+        gm.bakerBodyG = true;
     }
 
     public void BartenderCorpseU()
@@ -27,8 +37,38 @@ public class DayThreeSub : MonoBehaviour
         gm.bartenderBodyU = true;
     }
 
+    public void BartenderCorpseG()
+    {
+        gm.bartenderBodyG = true;
+    }
+
     public void BurningFlag()
     {
         gm.flag = true;
+    }
+
+    public void BurningDoc()
+    {
+        gm.burnDocument = true;
+    }
+
+    public void DeadUM()
+    {
+        gm.deadUnionistM = true;
+    }
+
+    public void DeadUG()
+    {
+        gm.deadUnionistG = true;
+    }
+
+    public void DeadMU()
+    {
+        gm.deadSoldiersU = true;
+    }
+
+    public void DeadMG()
+    {
+        gm.deadSoldiersG = true;
     }
 }

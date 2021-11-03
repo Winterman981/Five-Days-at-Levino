@@ -2498,9 +2498,6 @@ MonoBehaviour:
   sgtUnionComment: 0
   oldBooklet: 0
   sergeantPhone: 0
-  uniExposure: 0
-  govExposure: 0
-  milExposure: 0
   bakerBodyM: 0
   bakerBodyG: 0
   bartenderBodyU: 0
@@ -2508,6 +2505,14 @@ MonoBehaviour:
   sgtBodyU: 0
   sgtBodyM: 0
   flag: 0
+  deadSoldiersU: 0
+  deadSoldiersG: 0
+  deadUnionistM: 0
+  deadUnionistG: 0
+  burnDocument: 0
+  uniExposure: 0
+  govExposure: 0
+  milExposure: 0
   hasTalked: 0
 --- !u!1 &663641609
 GameObject:
@@ -3197,11 +3202,11 @@ MonoBehaviour:
   words:
     name: Government Flag
     sentences:
-    - "The Government\u2019s flag burns brightly amidst the riot."
+    - "The Government\u2019s flag burns brightly amidst the riot. "
     - 'Information Gained:
 
 
-      Burning Flag [ - 1 Government, - 1 Union]'
+      Burning Flag'
 --- !u!114 &827861910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5381,7 +5386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1556651649
 Transform:
   m_ObjectHideFlags: 0
@@ -5856,7 +5861,7 @@ MonoBehaviour:
     - 'Information Gained:
 
 
-      Sergeant''s Death [ - 2 Government, - 1 Union]'
+      Sergeant''s Death'
 --- !u!114 &1717350802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6933,8 +6938,8 @@ MonoBehaviour:
   words:
     name: Bartender
     sentences:
-    - "\u201CIt\u2019s a tense situation, I have a feeling a really big fight is
-      gonna break out.\u201D"
+    - '"The Reds have taken the Police Station. Good for them."'
+    - '"Now it seems that the soldiers will have one less thing to fight against."'
 --- !u!114 &1932410692
 MonoBehaviour:
   m_ObjectHideFlags: 0

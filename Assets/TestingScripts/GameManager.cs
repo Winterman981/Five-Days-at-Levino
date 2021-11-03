@@ -43,11 +43,6 @@ public class GameManager : MonoBehaviour
     public bool oldBooklet;
     public bool sergeantPhone;
 
-    [Header("Exposure")]
-    public int uniExposure;
-    public int govExposure;
-    public int milExposure;
-
     [Header("Day 3 Modifiers")]
     public bool bakerBodyM;
     public bool bakerBodyG;
@@ -56,6 +51,16 @@ public class GameManager : MonoBehaviour
     public bool sgtBodyU;
     public bool sgtBodyM;
     public bool flag;
+    public bool deadSoldiersU;
+    public bool deadSoldiersG;
+    public bool deadUnionistM;
+    public bool deadUnionistG;
+    public bool burnDocument;
+
+    [Header("Exposure")]
+    public int uniExposure;
+    public int govExposure;
+    public int milExposure;
 
     [Header("Debug")]
     public bool hasTalked;

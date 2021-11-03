@@ -3444,7 +3444,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: b9d658e753f96c14c904e4cd626db742, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a46effd1a5bde98448450d627904b5e3, type: 2}
 --- !u!4 &414195011
 Transform:
   m_ObjectHideFlags: 0
@@ -5723,6 +5723,13 @@ MonoBehaviour:
   uniExposure: 0
   govExposure: 0
   milExposure: 0
+  bakerBodyM: 0
+  bakerBodyG: 0
+  bartenderBodyU: 0
+  bartenderBodyG: 0
+  sgtBodyU: 0
+  sgtBodyM: 0
+  flag: 0
   hasTalked: 0
 --- !u!1 &663641609
 GameObject:

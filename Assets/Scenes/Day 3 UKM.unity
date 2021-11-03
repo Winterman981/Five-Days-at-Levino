@@ -897,7 +897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What happened?
+  m_text: Interact
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 34a4094db7dacf64093031ba7be5399b, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: b66acf9cae6765b4eaa48c0751b4040e, type: 2}
 --- !u!4 &414195011
 Transform:
   m_ObjectHideFlags: 0
@@ -2498,9 +2498,6 @@ MonoBehaviour:
   sgtUnionComment: 0
   oldBooklet: 0
   sergeantPhone: 0
-  uniExposure: 0
-  govExposure: 0
-  milExposure: 0
   bakerBodyM: 0
   bakerBodyG: 0
   bartenderBodyU: 0
@@ -2508,6 +2505,14 @@ MonoBehaviour:
   sgtBodyU: 0
   sgtBodyM: 0
   flag: 0
+  deadSoldiersU: 0
+  deadSoldiersG: 0
+  deadUnionistM: 0
+  deadUnionistG: 0
+  burnDocument: 0
+  uniExposure: 0
+  govExposure: 0
+  milExposure: 0
   hasTalked: 0
 --- !u!1 &663641609
 GameObject:
@@ -2678,7 +2683,7 @@ MonoBehaviour:
   words:
     name: Soldier
     sentences:
-    - "Soldiers are lied dead in the store, must have been the Bartender\u2019s customer."
+    - "Soldiers are laid dead in the store, must have been the Bartender\u2019s customer."
 --- !u!114 &668459939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2726,6 +2731,18 @@ MonoBehaviour:
       - m_Target: {fileID: 668459938}
         m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
         m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1166240563}
+        m_TargetAssemblyTypeName: DayThreeSub, Assembly-CSharp
+        m_MethodName: DeadMU
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5201,7 +5218,7 @@ GameObject:
   - component: {fileID: 1506253255}
   - component: {fileID: 1506253254}
   m_Layer: 0
-  m_Name: Burning Flag
+  m_Name: Barricade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5363,7 +5380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1556651649
 Transform:
   m_ObjectHideFlags: 0
@@ -6902,7 +6919,7 @@ MonoBehaviour:
     sentences:
     - '"The bartender has been shot and beaten many times. There are spits around
       his body as well."'
-    - "Bartender\u2019s Death [ - 2 Unionist]"
+    - "Bartender\u2019s Death"
 --- !u!114 &1932410692
 MonoBehaviour:
   m_ObjectHideFlags: 0

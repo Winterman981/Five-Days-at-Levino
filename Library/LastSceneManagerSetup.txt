@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Day 3 UKM.unity
+- path: Assets/Scenes/Day 3 GKM.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
