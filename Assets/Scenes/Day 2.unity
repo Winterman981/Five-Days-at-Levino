@@ -5666,7 +5666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &636216331
 Transform:
   m_ObjectHideFlags: 0
@@ -5720,9 +5720,6 @@ MonoBehaviour:
   sgtUnionComment: 0
   oldBooklet: 0
   sergeantPhone: 0
-  uniExposure: 0
-  govExposure: 0
-  milExposure: 0
   bakerBodyM: 0
   bakerBodyG: 0
   bartenderBodyU: 0
@@ -5730,6 +5727,14 @@ MonoBehaviour:
   sgtBodyU: 0
   sgtBodyM: 0
   flag: 0
+  deadSoldiersU: 0
+  deadSoldiersG: 0
+  deadUnionistM: 0
+  deadUnionistG: 0
+  burnDocument: 0
+  uniExposure: 0
+  govExposure: 0
+  milExposure: 0
   hasTalked: 0
 --- !u!1 &663641609
 GameObject:
