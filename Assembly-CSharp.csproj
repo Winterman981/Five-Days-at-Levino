@@ -59,8 +59,10 @@
     <Compile Include="Assets\InfoOne.cs" />
     <Compile Include="Assets\TestingScripts\ExposureCounter.cs" />
     <Compile Include="Assets\TestingScripts\Dialogue.cs" />
+    <Compile Include="Assets\BakerDayFour.cs" />
     <Compile Include="Assets\TestingScripts\PlayerInventory.cs" />
     <Compile Include="Assets\BookletBoy.cs" />
+    <Compile Include="Assets\SubmitManager.cs" />
     <Compile Include="Assets\EndCanvasTwo.cs" />
     <Compile Include="Assets\TestingScripts\Movement.cs" />
     <Compile Include="Assets\DayThreeSub.cs" />
@@ -68,11 +70,13 @@
     <Compile Include="Assets\SoldierDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\NodeParser.cs" />
     <Compile Include="Assets\DayTwoSub.cs" />
+    <Compile Include="Assets\SgtDayFour.cs" />
     <Compile Include="Assets\TestingScripts\Inventory.cs" />
     <Compile Include="Assets\TestingScripts\InteractButton.cs" />
     <Compile Include="Assets\TestingScripts\GameManager.cs" />
     <Compile Include="Assets\xNode-1.8.0\StartNode.cs" />
     <Compile Include="Assets\SgtDayOne.cs" />
+    <Compile Include="Assets\DayFourSub.cs" />
     <Compile Include="Assets\TestingScripts\TalkCheck.cs" />
     <Compile Include="Assets\TestingScripts\Talked.cs" />
     <Compile Include="Assets\SubmitOne.cs" />
@@ -88,7 +92,7 @@
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
-    <Compile Include="Assets\SubmitManager.cs" />
+    <Compile Include="Assets\BartenderDayFour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

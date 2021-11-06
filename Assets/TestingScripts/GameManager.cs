@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     public bool oldBooklet;
     public bool sergeantPhone;
 
-    [Header("Day 3 Modifiers")]
+    [Header("Day 3 Bools")]
     public bool bakerBodyM;
     public bool bakerBodyG;
     public bool bartenderBodyU;
@@ -56,6 +56,20 @@ public class GameManager : MonoBehaviour
     public bool deadUnionistM;
     public bool deadUnionistG;
     public bool burnDocument;
+
+    [Header("Day 4 Bools")]
+    public bool corruptionPlea;
+    public bool truceDoc;
+    public bool sgtCommentFour;
+    public bool newspaperFour;
+    public bool bakerNewsFour;
+    public bool militaryViolence;
+    public bool soldierDayFour;
+    public bool ptsdBaker;
+    public bool militia;
+    public bool milDoc;
+    public bool pmSkir; 
+    public bool soldierDayFourG;
 
     [Header("Exposure")]
     public int uniExposure;
