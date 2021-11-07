@@ -9,6 +9,8 @@ public class ExposureCounter: MonoBehaviour
     public TextMeshProUGUI mCounter;
     public TextMeshProUGUI gCounter;
 
+    public string deathMessage = "INACTIVE";
+
     public GameManager gm;
 
     private void Start()
@@ -23,5 +25,20 @@ public class ExposureCounter: MonoBehaviour
         uCounter.text = gm.uniExposure.ToString();
         mCounter.text = gm.milExposure.ToString();
         gCounter.text = gm.govExposure.ToString();
+
+        if(gm.UDeath == true)
+        {
+            uCounter.text = deathMessage.ToString();
+        }
+
+        if (gm.MDeath == true)
+        {
+            mCounter.text = deathMessage.ToString();
+        }
+
+        if (gm.GDeath == true)
+        {
+            gCounter.text = deathMessage.ToString();
+        }
     }
 }

@@ -4377,6 +4377,9 @@ MonoBehaviour:
   uniExposure: 0
   govExposure: 0
   milExposure: 0
+  UDeath: 0
+  MDeath: 0
+  GDeath: 0
   hasTalked: 0
 --- !u!1 &639537997
 GameObject:
@@ -4982,6 +4985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648eb9fc135cc4f4ab94871de40a4152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 0}
 --- !u!114 &682167263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10305,7 +10309,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 682167262}
         m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: EndDay
+        m_MethodName: DayFourEnd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

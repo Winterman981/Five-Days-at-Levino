@@ -41,4 +41,14 @@ public class SubmitManager : MonoBehaviour
     public bool submitASoldier;
     public bool submitAUnionMod;
     public bool submitCorruption;
+
+    [Header("Day 3 Bools")]
+
+    public bool submitSgtBody;
+    public bool submitBakerBody;
+    public bool submitBartenderBody;
+    public bool submitSoldierBody;
+    public bool submitUnionBody;
+    public bool submitFlag;
+    public bool submitBurnDoc;
 }

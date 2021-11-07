@@ -2698,6 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 636216331}
   - component: {fileID: 636216332}
+  - component: {fileID: 636216333}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -2770,10 +2771,65 @@ MonoBehaviour:
   deadUnionistM: 0
   deadUnionistG: 0
   burnDocument: 0
+  corruptionPlea: 0
+  truceDoc: 0
+  sgtCommentFour: 0
+  newspaperFour: 0
+  bakerNewsFour: 0
+  militaryViolence: 0
+  soldierDayFour: 0
+  ptsdBaker: 0
+  militia: 0
+  milDoc: 0
+  pmSkir: 0
+  soldierDayFourG: 0
   uniExposure: 0
   govExposure: 0
   milExposure: 0
+  UDeath: 0
+  Mdeath: 0
+  Gdeath: 0
   hasTalked: 0
+--- !u!114 &636216333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636216330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66fea54d3e827f4bb1c197fc9250c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  submitBakerPast: 0
+  submitUPoster: 0
+  submitGovCensor: 0
+  submitTVNews: 0
+  submitNewspaper: 0
+  submitBooklet: 0
+  submitCoupRumor: 0
+  submitUViolence: 0
+  submitPMRival: 0
+  submitPosterMod: 0
+  submitBakerNews: 0
+  submitSgtViolence: 0
+  submitBakerKid: 0
+  submitOldBook: 0
+  submitSoldierED: 0
+  submitBartenderDayTwo: 0
+  submitFalsified: 0
+  submitAUnion: 0
+  submitASoldier: 0
+  submitAUnionMod: 0
+  submitCorruption: 0
+  submitSgtBody: 0
+  submitBakerBody: 0
+  submitBartenderBody: 0
+  submitSoldierBody: 0
+  submitUnionBody: 0
+  submitFlag: 0
+  submitBurnDoc: 0
 --- !u!1 &676540496
 GameObject:
   m_ObjectHideFlags: 0
@@ -6972,7 +7028,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 682167262}
         m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: EndDay
+        m_MethodName: DayThreeEnd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

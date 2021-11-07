@@ -446,7 +446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Falsified(?) Document [+2 Government  ]
+  m_text: Falsified Document [+2 Government  ]
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You have inspected the poster and asked for the bakery owner's opinion.
+  m_text: You have listened to the Sergeant's opinion on the Unionist.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1376,6 +1376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648eb9fc135cc4f4ab94871de40a4152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 0}
 --- !u!114 &255730024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,7 +1423,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 255730023}
         m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: EndDay
+        m_MethodName: DayThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2328,7 +2329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You have asked the Police Sergeant about the news.
+  m_text: You have seen the Sergeant's act of corruption.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3452,7 +3453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You have asked the Bakery Owner about the news.
+  m_text: You have an old booklet from the Bakery Owner.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3586,7 +3587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You have promised the Police Sergeant to come tomorrow.
+  m_text: You have fulfilled the Sergeant's promise.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3824,14 +3825,14 @@ RectTransform:
   m_GameObject: {fileID: 654817744}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65146923, y: 1, z: 1}
+  m_LocalScale: {x: 0.5486057, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1630245873}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -24.609581, y: 0}
+  m_AnchoredPosition: {x: -31.4, y: -0.000030517578}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654817746
@@ -7587,6 +7588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 0}
+  sm: {fileID: 0}
   button1: {fileID: 664566768}
   button2: {fileID: 59353647}
   button3: {fileID: 1624989324}
@@ -7768,7 +7770,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390663762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 231.96451, z: 0}
+  m_LocalPosition: {x: 20, y: 231.96451, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 466953965}
@@ -8206,7 +8208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1461435672
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8241,7 +8243,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1461435671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e2be20126dd7244a969d30782d95ff6, type: 3}
+  m_Script: {fileID: 11500000, guid: 28b165192d9f9074a909d615f5414226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 0}
@@ -9068,6 +9070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 0}
+  sm: {fileID: 0}
   button1: {fileID: 466953964}
   button2: {fileID: 1516211648}
   button3: {fileID: 1273235398}
@@ -9462,7 +9465,7 @@ RectTransform:
   m_GameObject: {fileID: 1630245872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.534992, y: 1, z: 1}
+  m_LocalScale: {x: 1.822803, y: 1, z: 1}
   m_Children:
   - {fileID: 654817745}
   m_Father: {fileID: 1390663763}
@@ -9470,7 +9473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 411.55, y: -404.35}
+  m_AnchoredPosition: {x: 371, y: -404.35}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1630245874

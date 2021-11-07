@@ -2525,6 +2525,9 @@ MonoBehaviour:
   uniExposure: 0
   govExposure: 0
   milExposure: 0
+  UDeath: 0
+  Mdeath: 0
+  Gdeath: 0
   hasTalked: 0
 --- !u!1001 &636847476
 PrefabInstance:
@@ -6996,7 +6999,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 682167262}
         m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: EndDay
+        m_MethodName: DayThreeEnd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

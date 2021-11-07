@@ -17,4 +17,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day2End.unity
     guid: 38d0f7746bae7ee428b0a798e8ee702f
+  - enabled: 1
+    path: Assets/Scenes/Day 3 UKM.unity
+    guid: c2846aff31187224c944ee2f8af02e69
+  - enabled: 1
+    path: Assets/Scenes/Day 3 UKG.unity
+    guid: 3c695c1f2fbd6f746926c8c5e0bfcb1b
+  - enabled: 1
+    path: Assets/Scenes/Day 3 MKU.unity
+    guid: 025c803aa3de07c4aa2e694d6d9352ee
+  - enabled: 1
+    path: Assets/Scenes/Day 3 MKG.unity
+    guid: dda9effb0a0eed442b0559e235ee681b
+  - enabled: 1
+    path: Assets/Scenes/Day 3 GKU.unity
+    guid: 64534f47c830f754b8fbcb9eaf643b7e
+  - enabled: 1
+    path: Assets/Scenes/Day 3 GKM.unity
+    guid: 13000edc3bca2c545a93e5ed86708dd3
+  - enabled: 1
+    path: Assets/Scenes/Day3End.unity
+    guid: 005923a3c8f294448822f91145166945
+  - enabled: 1
+    path: Assets/Scenes/Day 4 UG.unity
+    guid: dd510df6fd0d0744a93e2e02e84c1303
+  - enabled: 1
+    path: Assets/Scenes/Day 4 UM.unity
+    guid: 68348475266bec444875a22948db5e6b
+  - enabled: 1
+    path: Assets/Scenes/Day 4 GM.unity
+    guid: a93ea4b4b0fe3184593a8db5933eb9e7
+  - enabled: 1
+    path: Assets/Scenes/Day4End.unity
+    guid: 501f130f393f9794f8a974431cf0b7e5
   m_configObjects: {}
