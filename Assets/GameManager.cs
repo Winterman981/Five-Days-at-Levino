@@ -96,17 +96,26 @@ public class GameManager : MonoBehaviour
 
     public void ModifyUni(int value)
     {
-        uniExposure += value;
+        if(UDeath != true)
+        {
+            uniExposure += value;
+        }
     }
 
     public void ModifyMil(int value)
     {
-        milExposure += value;
+        if (MDeath != true)
+        {
+            milExposure += value;
+        }
     }
 
     public void ModifyGov(int value)
     {
-        govExposure += value;
+        if (GDeath != true)
+        {
+            govExposure += value;
+        }
     }
 
 }

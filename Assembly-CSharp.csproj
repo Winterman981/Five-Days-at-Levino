@@ -65,6 +65,7 @@
     <Compile Include="Assets\SubmitManager.cs" />
     <Compile Include="Assets\EndCanvasTwo.cs" />
     <Compile Include="Assets\BartenderDayFour.cs" />
+    <Compile Include="Assets\InfoTwo.cs" />
     <Compile Include="Assets\TestingScripts\Movement.cs" />
     <Compile Include="Assets\DayThreeSub.cs" />
     <Compile Include="Assets\BakerDayTwo.cs" />
@@ -83,9 +84,11 @@
     <Compile Include="Assets\SubmitOne.cs" />
     <Compile Include="Assets\NPCDayOne.cs" />
     <Compile Include="Assets\xNode-1.8.0\DialogueGraph.cs" />
+    <Compile Include="Assets\EndCanvasThree.cs" />
     <Compile Include="Assets\SgtDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\BaseNode.cs" />
-    <Compile Include="Assets\TestingScripts\Transition.cs" />
+    <Compile Include="Assets\EndCanvasFour.cs" />
+    <Compile Include="Assets\Transition.cs" />
     <Compile Include="Assets\TestingScripts\InteractDetection.cs" />
     <Compile Include="Assets\EndCanvasOne.cs" />
     <Compile Include="Assets\TestingScripts\DialogueTrigger.cs" />
@@ -93,9 +96,6 @@
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
-    <Compile Include="Assets\InfoTwo.cs" />
-    <Compile Include="Assets\EndCanvasThree.cs" />
-    <Compile Include="Assets\EndCanvasFour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
