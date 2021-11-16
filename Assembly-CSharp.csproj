@@ -47,52 +47,52 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.12</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\DayOneSub.cs" />
+    <Compile Include="Assets\Scripts\DayOneSub.cs" />
     <Compile Include="Assets\TestingScripts\Item.cs" />
-    <Compile Include="Assets\BartenderDayTwo.cs" />
-    <Compile Include="Assets\InfoOne.cs" />
+    <Compile Include="Assets\Scripts\BartenderDayTwo.cs" />
+    <Compile Include="Assets\Scripts\InfoOne.cs" />
     <Compile Include="Assets\TestingScripts\ExposureCounter.cs" />
     <Compile Include="Assets\TestingScripts\Dialogue.cs" />
-    <Compile Include="Assets\BakerDayFour.cs" />
+    <Compile Include="Assets\Scripts\BakerDayFour.cs" />
     <Compile Include="Assets\TestingScripts\PlayerInventory.cs" />
-    <Compile Include="Assets\BookletBoy.cs" />
-    <Compile Include="Assets\SubmitManager.cs" />
-    <Compile Include="Assets\EndCanvasTwo.cs" />
-    <Compile Include="Assets\BartenderDayFour.cs" />
-    <Compile Include="Assets\InfoTwo.cs" />
+    <Compile Include="Assets\Scripts\BookletBoy.cs" />
+    <Compile Include="Assets\Scripts\SubmitManager.cs" />
+    <Compile Include="Assets\Scripts\EndCanvasTwo.cs" />
+    <Compile Include="Assets\Scripts\BartenderDayFour.cs" />
+    <Compile Include="Assets\Scripts\InfoTwo.cs" />
     <Compile Include="Assets\TestingScripts\Movement.cs" />
-    <Compile Include="Assets\DayThreeSub.cs" />
-    <Compile Include="Assets\BakerDayTwo.cs" />
-    <Compile Include="Assets\SoldierDayTwo.cs" />
+    <Compile Include="Assets\Scripts\DayThreeSub.cs" />
+    <Compile Include="Assets\Scripts\BakerDayTwo.cs" />
+    <Compile Include="Assets\Scripts\SoldierDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\NodeParser.cs" />
-    <Compile Include="Assets\DayTwoSub.cs" />
-    <Compile Include="Assets\SgtDayFour.cs" />
+    <Compile Include="Assets\Scripts\DayTwoSub.cs" />
+    <Compile Include="Assets\Scripts\SgtDayFour.cs" />
     <Compile Include="Assets\TestingScripts\Inventory.cs" />
     <Compile Include="Assets\TestingScripts\InteractButton.cs" />
-    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\xNode-1.8.0\StartNode.cs" />
-    <Compile Include="Assets\SgtDayOne.cs" />
-    <Compile Include="Assets\DayFourSub.cs" />
+    <Compile Include="Assets\Scripts\SgtDayOne.cs" />
+    <Compile Include="Assets\Scripts\DayFourSub.cs" />
     <Compile Include="Assets\TestingScripts\TalkCheck.cs" />
     <Compile Include="Assets\TestingScripts\Talked.cs" />
-    <Compile Include="Assets\SubmitOne.cs" />
-    <Compile Include="Assets\NPCDayOne.cs" />
+    <Compile Include="Assets\Scripts\SubmitOne.cs" />
+    <Compile Include="Assets\Scripts\NPCDayOne.cs" />
     <Compile Include="Assets\xNode-1.8.0\DialogueGraph.cs" />
-    <Compile Include="Assets\EndCanvasThree.cs" />
-    <Compile Include="Assets\SgtDayTwo.cs" />
+    <Compile Include="Assets\Scripts\EndCanvasThree.cs" />
+    <Compile Include="Assets\Scripts\SgtDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\BaseNode.cs" />
-    <Compile Include="Assets\EndCanvasFour.cs" />
-    <Compile Include="Assets\Transition.cs" />
+    <Compile Include="Assets\Scripts\EndCanvasFour.cs" />
+    <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\TestingScripts\InteractDetection.cs" />
-    <Compile Include="Assets\EndCanvasOne.cs" />
+    <Compile Include="Assets\Scripts\EndCanvasOne.cs" />
     <Compile Include="Assets\TestingScripts\DialogueTrigger.cs" />
-    <Compile Include="Assets\Pouch.cs" />
+    <Compile Include="Assets\Scripts\Pouch.cs" />
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
