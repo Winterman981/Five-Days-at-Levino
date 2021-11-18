@@ -18,6 +18,8 @@ public class Movement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        //SpriteControl();
     }
 
     void FixedUpdate() //Movement
@@ -34,4 +36,27 @@ public class Movement : MonoBehaviour
         moveSpeed = newSpeed;
         Debug.Log("Changed speed to " + moveSpeed);
 	}
+
+    public void SpriteControl()
+	{
+        if(Input.GetKeyDown(KeyCode.W))
+		{
+            this.gameObject.transform.Rotate(0, 0, 0, Space.Self);
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            this.gameObject.transform.Rotate(0, 0, -90, Space.Self);
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            this.gameObject.transform.Rotate(0, 0, 180, Space.Self);
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            this.gameObject.transform.Rotate(0, 0, 90, Space.Self);
+        }
+    }
 }

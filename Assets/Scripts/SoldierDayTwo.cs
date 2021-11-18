@@ -9,6 +9,8 @@ public class SoldierDayTwo : MonoBehaviour
     public GameObject button;
     public GameObject mystery;
 
+    Vector2 Direction;
+
     [SerializeField] Transform target;
     NavMeshAgent agent;
 
@@ -31,7 +33,13 @@ public class SoldierDayTwo : MonoBehaviour
 
     public void SoldierWalk()
     {
-        if(gm.hasPouch == true)
+        Vector2 targetPos = target.position;
+
+        Direction = targetPos - (Vector2)transform.position;
+
+        RaycastHit2D rayInfo = Physics2D.Raycast(transform.position, Direction);
+
+        if (gm.hasPouch == true)
         {
             mystery.gameObject.SetActive(false);
             button.gameObject.SetActive(true);
@@ -46,6 +54,7 @@ public class SoldierDayTwo : MonoBehaviour
     IEnumerator SoldierAI()
     {
         yield return new WaitForSeconds(3f);
+        transform.up = Direction;
         agent.SetDestination(target.position);
     }
 }
