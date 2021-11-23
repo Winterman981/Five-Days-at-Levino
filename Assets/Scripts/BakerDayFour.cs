@@ -27,7 +27,7 @@ public class BakerDayFour : MonoBehaviour
 
     void MysteryCheck()
     {
-        if (gm.newspaperFour == true)
+        if (gm.newspaperFour == true || gm.militaryViolence == true)
         {
             mystery1.gameObject.SetActive(false);
             button1.gameObject.SetActive(true);

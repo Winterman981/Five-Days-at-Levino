@@ -17,7 +17,7 @@ public class Pouch : MonoBehaviour
     {
         if(gm.hasPouch == true)
         {
-            //Destroy(this.gameObject);
+            Destroy(this.gameObject);
         }
     }
 }

@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
 
+    public GameObject player;
+
     void Update() //Mouselook
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -19,7 +21,7 @@ public class Movement : MonoBehaviour
 
         //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        //SpriteControl();
+        SpriteControl();
     }
 
     void FixedUpdate() //Movement
@@ -41,22 +43,42 @@ public class Movement : MonoBehaviour
 	{
         if(Input.GetKeyDown(KeyCode.W))
 		{
-            this.gameObject.transform.Rotate(0, 0, 0, Space.Self);
+            player.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            this.gameObject.transform.Rotate(0, 0, -90, Space.Self);
+            player.transform.rotation = Quaternion.Euler(0, 0, 90);
         }
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            this.gameObject.transform.Rotate(0, 0, 180, Space.Self);
+            player.transform.rotation = Quaternion.Euler(0, 0, 180);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            this.gameObject.transform.Rotate(0, 0, 90, Space.Self);
+            player.transform.rotation = Quaternion.Euler(0, 0, -90);
         }
+
+        //if (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.A))
+        //{
+        //    player.transform.rotation = Quaternion.Euler(0, 0, 45);
+        //}
+
+        //if (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.D))
+        //{
+        //    player.transform.rotation = Quaternion.Euler(0, 0, -45);
+        //}
+
+        //if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.A))
+        //{
+        //    player.transform.rotation = Quaternion.Euler(0, 0, 135);
+        //}
+
+        //if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
+        //{
+        //    player.transform.rotation = Quaternion.Euler(0, 0, -135);
+        //}
     }
 }

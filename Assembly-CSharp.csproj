@@ -96,6 +96,8 @@
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

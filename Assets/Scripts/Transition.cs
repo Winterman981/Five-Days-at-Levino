@@ -89,6 +89,24 @@ public class Transition : MonoBehaviour
 			SceneManager.LoadScene(7);
 			gm.GDeath = true;
 		}
+
+		if((gm.uniExposure == gm.milExposure) && (gm.govExposure < gm.uniExposure) && (gm.govExposure < gm.milExposure))
+		{
+			SceneManager.LoadScene(7);
+			gm.GDeath = true;
+		}
+
+		if ((gm.milExposure == gm.govExposure) && (gm.uniExposure < gm.govExposure) && (gm.uniExposure < gm.milExposure))
+		{
+			SceneManager.LoadScene(6);
+			gm.GDeath = true;
+		}
+
+		if ((gm.uniExposure == gm.govExposure) && (gm.milExposure < gm.govExposure) && (gm.milExposure < gm.uniExposure))
+		{
+			SceneManager.LoadScene(9);
+			gm.GDeath = true;
+		}
 	}
 
 	public void DayFour()

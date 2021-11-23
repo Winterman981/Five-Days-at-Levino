@@ -6,6 +6,9 @@ using UnityEngine.AI;
 public class BookletBoy : MonoBehaviour
 {
     public GameManager gm;
+    public GameObject button;
+
+    Vector2 Direction;
 
     [SerializeField] Transform target;
     NavMeshAgent agent;
@@ -18,6 +21,8 @@ public class BookletBoy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        button.gameObject.SetActive(false);
     }
 
     void Update()
@@ -27,8 +32,15 @@ public class BookletBoy : MonoBehaviour
 
     public void BookletWalk()
     {
-        if(gm.hasBooklet == true)
+        Vector2 targetPos = target.position;
+
+        Direction = targetPos - (Vector2)transform.position;
+
+        RaycastHit2D rayInfo = Physics2D.Raycast(transform.position, Direction);
+
+        if (gm.hasBooklet == true)
         {
+            transform.up = Direction;
             agent.SetDestination(target.position);
         }
     }

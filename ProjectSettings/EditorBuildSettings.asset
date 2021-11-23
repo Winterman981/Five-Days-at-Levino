@@ -50,4 +50,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day4End.unity
     guid: 501f130f393f9794f8a974431cf0b7e5
+  - enabled: 1
+    path: Assets/Scenes/Day 5 GKM.unity
+    guid: a0ba7f492d049b84186ed76ecf607ef6
+  - enabled: 1
+    path: Assets/Scenes/Day 5 GKU.unity
+    guid: 288edb82bdbc0ce48b8d4e82fe914162
+  - enabled: 1
+    path: Assets/Scenes/Day 5 MKU.unity
+    guid: 132036ac1c7b0bf47a7e10a31a9cd453
   m_configObjects: {}

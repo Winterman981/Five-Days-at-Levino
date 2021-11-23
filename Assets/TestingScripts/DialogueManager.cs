@@ -12,13 +12,17 @@ public class DialogueManager : MonoBehaviour
 
     public Animator anim;
 
+    public Movement movement;
+
     void Start()
     {
         sentences = new Queue<string>();
+        movement = FindObjectOfType<Movement>();
     }
 
     public void StartDialogue (Dialogue words)
     {
+        movement.enabled = false;
         anim.SetBool("IsOpen", true);
         nameText.text = words.name;
 
@@ -51,13 +55,14 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.02f);
+            //yield return new WaitForSeconds(0.02f);
             yield return null;
         }
     }
 
     void EndTalk()
     {
+        movement.enabled = true;
         anim.SetBool("IsOpen", false);
     }
 }
