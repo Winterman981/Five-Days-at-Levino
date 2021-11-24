@@ -402,14 +402,14 @@ RectTransform:
   m_GameObject: {fileID: 743979283}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.28719124, y: 0.28719124, z: 0.28719124}
+  m_LocalScale: {x: 0.24865048, y: 0.28719127, z: 0.28719127}
   m_Children: []
   m_Father: {fileID: 1283624215}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -45.422993, y: 12.438721}
+  m_AnchoredPosition: {x: -51.948074, y: 12.438721}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743979285
@@ -432,12 +432,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Terror is nothing more than justice,
+  m_text: '"I often wonder what I will be remembered in history for."
 
-    prompt, secure, and inflexible."
-
-    -
-    Maximilien Robespierre'
+    - Ferdinand
+    Marcos'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -500,7 +498,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -29.729362, y: 0, z: -349.08386, w: -81.204865}
+  m_margin: {x: -29.729362, y: 0, z: -441.9882, w: -81.204865}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -707,7 +705,7 @@ RectTransform:
   m_GameObject: {fileID: 1283624214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.482, y: 3.482, z: 3.482}
+  m_LocalScale: {x: 4.02171, y: 3.482, z: 3.482}
   m_Children:
   - {fileID: 743979284}
   m_Father: {fileID: 141529771}
