@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Day 5 UKG.unity
+- path: Assets/Scenes/MilitaryWins.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

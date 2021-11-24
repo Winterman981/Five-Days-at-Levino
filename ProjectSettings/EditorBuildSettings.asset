@@ -68,4 +68,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day 5 UKM.unity
     guid: b450ecd984124914a860fc31bbd7c4c5
+  - enabled: 1
+    path: Assets/Scenes/UnionWins.unity
+    guid: 0060776e31681f649819d7dd20a8928a
+  - enabled: 1
+    path: Assets/Scenes/MilitaryWins.unity
+    guid: 77f29a2798091ac4689d131ef369f8c1
   m_configObjects: {}

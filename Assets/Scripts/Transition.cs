@@ -126,4 +126,53 @@ public class Transition : MonoBehaviour
 			SceneManager.LoadScene(12);
 		}
 	}
+
+	public void DayFive()
+	{
+		FindObjectOfType<AudioManager>().Stop("BGM");
+		if (gm.UDeath == true)
+		{
+			if (gm.milExposure > gm.govExposure || gm.milExposure == gm.govExposure)
+			{
+				FindObjectOfType<AudioManager>().Play("Frei");
+				SceneManager.LoadScene(18);
+			}
+
+			if(gm.milExposure < gm.govExposure)
+			{
+				FindObjectOfType<AudioManager>().Play("Serve");
+				SceneManager.LoadScene(15);
+			}
+		}
+
+		if (gm.MDeath == true)
+		{
+			if (gm.uniExposure > gm.govExposure)
+			{
+				FindObjectOfType<AudioManager>().Play("Internat");
+				SceneManager.LoadScene(19);
+			}
+
+			if (gm.uniExposure < gm.govExposure || gm.uniExposure == gm.govExposure)
+			{
+				FindObjectOfType<AudioManager>().Play("Serve");
+				SceneManager.LoadScene(16);
+			}
+		}
+
+		if (gm.GDeath == true)
+		{
+			if (gm.uniExposure > gm.milExposure)
+			{
+				FindObjectOfType<AudioManager>().Play("Internat");
+				SceneManager.LoadScene(20);
+			}
+
+			if (gm.uniExposure < gm.milExposure || gm.uniExposure == gm.milExposure)
+			{
+				FindObjectOfType<AudioManager>().Play("Frei");
+				SceneManager.LoadScene(17);
+			}
+		}
+	}
 }
