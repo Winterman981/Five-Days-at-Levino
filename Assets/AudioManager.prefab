@@ -46,43 +46,43 @@ MonoBehaviour:
   sounds:
   - name: Pencil
     clip: {fileID: 8300000, guid: baea9a91959bc6649964572df5152e36, type: 3}
-    group: {fileID: 0}
+    group: {fileID: 24300002, guid: 902c3391153954048b26772bac92be25, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Type
     clip: {fileID: 8300000, guid: 4c098811875306b46a7cfe7d3b01c3d9, type: 3}
-    group: {fileID: 0}
+    group: {fileID: 24300002, guid: 902c3391153954048b26772bac92be25, type: 2}
     volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: BGM
     clip: {fileID: 8300000, guid: 67f1d7e73a458d94bad459bca7a4c1c4, type: 3}
-    group: {fileID: 0}
-    volume: 0.1
+    group: {fileID: 24300002, guid: 902c3391153954048b26772bac92be25, type: 2}
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Internat
     clip: {fileID: 8300000, guid: 614c3fb9b08d9b54cbefbe63b90f81e6, type: 3}
-    group: {fileID: 0}
-    volume: 0.1
+    group: {fileID: 24300002, guid: 902c3391153954048b26772bac92be25, type: 2}
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Frei
     clip: {fileID: 8300000, guid: 6241c93cd97dfea4a990e7f21c877933, type: 3}
-    group: {fileID: 0}
-    volume: 0.1
+    group: {fileID: 24300002, guid: 902c3391153954048b26772bac92be25, type: 2}
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Serve
     clip: {fileID: 8300000, guid: 6ec1e9191ba8dd049ab85c697559955f, type: 3}
-    group: {fileID: 0}
-    volume: 0.1
+    group: {fileID: 24300002, guid: 902c3391153954048b26772bac92be25, type: 2}
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}

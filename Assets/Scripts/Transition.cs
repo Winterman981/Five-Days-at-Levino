@@ -29,12 +29,12 @@ public class Transition : MonoBehaviour
 
 	public void DayThreeEnd()
 	{
-		SceneManager.LoadScene(10);
+		SceneManager.LoadScene(11);
 	}
 
 	public void DayFourEnd()
 	{
-		SceneManager.LoadScene(14);
+		SceneManager.LoadScene(15);
 	}
 
 	public void DayThree()
@@ -43,13 +43,13 @@ public class Transition : MonoBehaviour
 		{
 			if(gm.govExposure > gm.milExposure)
 			{
-				SceneManager.LoadScene(4);
+				SceneManager.LoadScene(5);
 				gm.MDeath = true;
 			}
 
 			if (gm.govExposure < gm.milExposure || gm.govExposure == gm.milExposure)
 			{
-				SceneManager.LoadScene(5);
+				SceneManager.LoadScene(6);
 				gm.GDeath = true;
 			}
 		}
@@ -58,13 +58,13 @@ public class Transition : MonoBehaviour
 		{
 			if (gm.uniExposure > gm.govExposure)
 			{
-				SceneManager.LoadScene(7);
+				SceneManager.LoadScene(8);
 				gm.GDeath = true;
 			}
 
 			if (gm.uniExposure < gm.govExposure || gm.uniExposure == gm.govExposure)
 			{
-				SceneManager.LoadScene(6);
+				SceneManager.LoadScene(7);
 				gm.UDeath = true;
 			}
 		}
@@ -73,38 +73,38 @@ public class Transition : MonoBehaviour
 		{
 			if (gm.milExposure > gm.uniExposure || gm.milExposure == gm.uniExposure)
 			{
-				SceneManager.LoadScene(8);
+				SceneManager.LoadScene(9);
 				gm.UDeath = true;
 			}
 
 			if (gm.milExposure < gm.uniExposure)
 			{
-				SceneManager.LoadScene(9);
+				SceneManager.LoadScene(10);
 				gm.MDeath = true;
 			}
 		}
 
 		if((gm.govExposure == gm.milExposure) && (gm.milExposure == gm.uniExposure))
 		{
-			SceneManager.LoadScene(7);
+			SceneManager.LoadScene(8);
 			gm.GDeath = true;
 		}
 
 		if((gm.uniExposure == gm.milExposure) && (gm.govExposure < gm.uniExposure) && (gm.govExposure < gm.milExposure))
 		{
-			SceneManager.LoadScene(7);
+			SceneManager.LoadScene(8);
 			gm.GDeath = true;
 		}
 
 		if ((gm.milExposure == gm.govExposure) && (gm.uniExposure < gm.govExposure) && (gm.uniExposure < gm.milExposure))
 		{
-			SceneManager.LoadScene(6);
+			SceneManager.LoadScene(7);
 			gm.GDeath = true;
 		}
 
 		if ((gm.uniExposure == gm.govExposure) && (gm.milExposure < gm.govExposure) && (gm.milExposure < gm.uniExposure))
 		{
-			SceneManager.LoadScene(9);
+			SceneManager.LoadScene(10);
 			gm.GDeath = true;
 		}
 	}
@@ -113,17 +113,17 @@ public class Transition : MonoBehaviour
 	{
 		if(gm.UDeath == true)
 		{
-			SceneManager.LoadScene(13);
+			SceneManager.LoadScene(14);
 		}
 
 		if (gm.MDeath == true)
 		{
-			SceneManager.LoadScene(11);
+			SceneManager.LoadScene(12);
 		}
 
 		if (gm.GDeath == true)
 		{
-			SceneManager.LoadScene(12);
+			SceneManager.LoadScene(11);
 		}
 	}
 
@@ -135,13 +135,13 @@ public class Transition : MonoBehaviour
 			if (gm.milExposure > gm.govExposure || gm.milExposure == gm.govExposure)
 			{
 				FindObjectOfType<AudioManager>().Play("Frei");
-				SceneManager.LoadScene(18);
+				SceneManager.LoadScene(19);
 			}
 
 			if(gm.milExposure < gm.govExposure)
 			{
 				FindObjectOfType<AudioManager>().Play("Serve");
-				SceneManager.LoadScene(15);
+				SceneManager.LoadScene(16);
 			}
 		}
 
@@ -150,13 +150,13 @@ public class Transition : MonoBehaviour
 			if (gm.uniExposure > gm.govExposure)
 			{
 				FindObjectOfType<AudioManager>().Play("Internat");
-				SceneManager.LoadScene(19);
+				SceneManager.LoadScene(20);
 			}
 
 			if (gm.uniExposure < gm.govExposure || gm.uniExposure == gm.govExposure)
 			{
 				FindObjectOfType<AudioManager>().Play("Serve");
-				SceneManager.LoadScene(16);
+				SceneManager.LoadScene(17);
 			}
 		}
 
@@ -165,14 +165,34 @@ public class Transition : MonoBehaviour
 			if (gm.uniExposure > gm.milExposure)
 			{
 				FindObjectOfType<AudioManager>().Play("Internat");
-				SceneManager.LoadScene(20);
+				SceneManager.LoadScene(21);
 			}
 
 			if (gm.uniExposure < gm.milExposure || gm.uniExposure == gm.milExposure)
 			{
 				FindObjectOfType<AudioManager>().Play("Frei");
-				SceneManager.LoadScene(17);
+				SceneManager.LoadScene(18);
 			}
 		}
+	}
+
+	public void GovWins()
+	{
+		SceneManager.LoadScene(24);
+	}
+
+	public void UniWins()
+	{
+		SceneManager.LoadScene(22);
+	}
+
+	public void MilWins()
+	{
+		SceneManager.LoadScene(23);
+	}
+
+	public void Menu()
+	{
+		SceneManager.LoadScene(0);
 	}
 }

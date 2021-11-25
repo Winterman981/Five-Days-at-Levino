@@ -64,7 +64,9 @@
     <Compile Include="Assets\Scripts\BookletBoy.cs" />
     <Compile Include="Assets\Scripts\SubmitManager.cs" />
     <Compile Include="Assets\Scripts\EndCanvasTwo.cs" />
+    <Compile Include="Assets\VolumeSlider.cs" />
     <Compile Include="Assets\Scripts\BartenderDayFour.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\InfoTwo.cs" />
     <Compile Include="Assets\TestingScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\DayThreeSub.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Assets\Scripts\SoldierDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\NodeParser.cs" />
     <Compile Include="Assets\Scripts\DayTwoSub.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\SgtDayFour.cs" />
     <Compile Include="Assets\TestingScripts\Inventory.cs" />
     <Compile Include="Assets\TestingScripts\InteractButton.cs" />
@@ -80,6 +83,8 @@
     <Compile Include="Assets\Scripts\SgtDayOne.cs" />
     <Compile Include="Assets\Scripts\DayFourSub.cs" />
     <Compile Include="Assets\TestingScripts\TalkCheck.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Tutorial.cs" />
     <Compile Include="Assets\TestingScripts\Talked.cs" />
     <Compile Include="Assets\Scripts\SubmitOne.cs" />
     <Compile Include="Assets\Scripts\NPCDayOne.cs" />
@@ -88,6 +93,7 @@
     <Compile Include="Assets\Scripts\SgtDayTwo.cs" />
     <Compile Include="Assets\xNode-1.8.0\BaseNode.cs" />
     <Compile Include="Assets\Scripts\EndCanvasFour.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Transition.cs" />
     <Compile Include="Assets\TestingScripts\InteractDetection.cs" />
     <Compile Include="Assets\Scripts\EndCanvasOne.cs" />
@@ -96,8 +102,7 @@
     <Compile Include="Assets\xNode-1.8.0\DialogueNode.cs" />
     <Compile Include="Assets\TestingScripts\ButtonTrigger.cs" />
     <Compile Include="Assets\TestingScripts\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\Sound.cs" />
+    <Compile Include="Assets\SceneLoad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -92,13 +92,25 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
+
+        else
+		{
+            Destroy(gameObject);
+            return;
+        }
     }
+
+    void Update()
+	{
+        Cheat();
+	}
 
     public void ModifyUni(int value)
     {
         if(UDeath != true)
         {
             uniExposure += value;
+            FindObjectOfType<AudioManager>().Play("Type");
         }
     }
 
@@ -107,6 +119,7 @@ public class GameManager : MonoBehaviour
         if (MDeath != true)
         {
             milExposure += value;
+            FindObjectOfType<AudioManager>().Play("Type");
         }
     }
 
@@ -115,9 +128,27 @@ public class GameManager : MonoBehaviour
         if (GDeath != true)
         {
             govExposure += value;
+            FindObjectOfType<AudioManager>().Play("Type");
         }
     }
 
+    public void Cheat()
+	{
+        if(Input.GetKeyDown(KeyCode.T))
+		{
+            ModifyGov(5);
+		}
+
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            ModifyMil(5);
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            ModifyUni(5);
+        }
+    }
 }
 
 //public enum ItemType
