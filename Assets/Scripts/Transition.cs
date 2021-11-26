@@ -123,7 +123,7 @@ public class Transition : MonoBehaviour
 
 		if (gm.GDeath == true)
 		{
-			SceneManager.LoadScene(11);
+			SceneManager.LoadScene(13);
 		}
 	}
 
@@ -193,6 +193,10 @@ public class Transition : MonoBehaviour
 
 	public void Menu()
 	{
+		FindObjectOfType<AudioManager>().Stop("Internat");
+		FindObjectOfType<AudioManager>().Stop("Serve");
+		FindObjectOfType<AudioManager>().Stop("Frei");
+		FindObjectOfType<AudioManager>().Play("BGM");
 		SceneManager.LoadScene(0);
 	}
 }

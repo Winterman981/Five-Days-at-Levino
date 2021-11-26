@@ -60,25 +60,5 @@ public class Movement : MonoBehaviour
         {
             player.transform.rotation = Quaternion.Euler(0, 0, -90);
         }
-
-        //if (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.A))
-        //{
-        //    player.transform.rotation = Quaternion.Euler(0, 0, 45);
-        //}
-
-        //if (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.D))
-        //{
-        //    player.transform.rotation = Quaternion.Euler(0, 0, -45);
-        //}
-
-        //if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.A))
-        //{
-        //    player.transform.rotation = Quaternion.Euler(0, 0, 135);
-        //}
-
-        //if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
-        //{
-        //    player.transform.rotation = Quaternion.Euler(0, 0, -135);
-        //}
     }
 }

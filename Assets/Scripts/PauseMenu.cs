@@ -31,13 +31,17 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
 		{
-            if (GamePaused)
+            if(SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex < 22)
 			{
-                Resume();
-			} else
-			{
-                Pause();
-			}
+                if (GamePaused)
+                {
+                    Resume();
+                }
+                else
+                {
+                    Pause();
+                }
+            }
 		}
     }
 
@@ -68,6 +72,11 @@ public class PauseMenu : MonoBehaviour
 
     public void Menu()
 	{
+        Resume();
+        FindObjectOfType<AudioManager>().Stop("Internat");
+        FindObjectOfType<AudioManager>().Stop("Serve");
+        FindObjectOfType<AudioManager>().Stop("Frei");
+        FindObjectOfType<AudioManager>().Play("BGM");
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
