@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SubmitManager : MonoBehaviour
 {
@@ -15,7 +16,15 @@ public class SubmitManager : MonoBehaviour
         }
     }
 
-    [Header("Day 1 Bools")]
+	private void Update()
+	{
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+	[Header("Day 1 Bools")]
 
     public bool submitBakerPast;
     public bool submitUPoster;
