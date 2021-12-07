@@ -99,13 +99,13 @@ public class Transition : MonoBehaviour
 		if ((gm.milExposure == gm.govExposure) && (gm.uniExposure < gm.govExposure) && (gm.uniExposure < gm.milExposure))
 		{
 			SceneManager.LoadScene(7);
-			gm.GDeath = true;
+			gm.UDeath = true;
 		}
 
 		if ((gm.uniExposure == gm.govExposure) && (gm.milExposure < gm.govExposure) && (gm.milExposure < gm.uniExposure))
 		{
 			SceneManager.LoadScene(10);
-			gm.GDeath = true;
+			gm.MDeath = true;
 		}
 	}
 
